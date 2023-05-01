@@ -4,7 +4,7 @@ local Main = library:CreateWindow("Main","Crimson")
 
 local tab = Main:CreateTab("Cheats")
 
-tab:CreateToggle("AutoBounty • Farm",function(value)
+tab:CreateToggle("AutoBounty • Farm",function()
   Teleport()
   Click()
 end)
